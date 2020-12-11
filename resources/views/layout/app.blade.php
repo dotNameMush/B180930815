@@ -7,13 +7,13 @@
     <meta name="keywords" content="Anime, unica, creative, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Watch Anime Online</title>
+    <title>YamaSubs | Watch Anime Online</title>
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
     rel="stylesheet">
-
+    <link rel="icon" href="logo.png" type="image/gif" sizes="16x16">
     <!-- Css Styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
@@ -38,8 +38,8 @@
             <div class="row">
                 <div class="col-lg-2">
                     <div class="header__logo">
-                        <a href="/">
-                            <img src="img/logo.png" alt="">
+                        <a href="/" style="">
+                            <img src="img/logo.png" alt="yamasub logo">
                         </a>
                     </div>
                 </div>
@@ -54,10 +54,10 @@
                                     <ul class="dropdown">
                                         <li><a href="#">Categories</a></li>
                                         <li><a href="./anime-details.html">Anime Details</a></li>
-                                        <li><a href="./blog-details.html">Blog Details</a></li>
+                                        <li><a href="{{ route('posts') }}">Blog Details</a></li>
                                     </ul>
                                 </li>
-                                <li><a href="./blog.html">Our Blog</a></li>
+                                <li><a href="{{ route('posts') }}">Our Blog</a></li>
                                 <li><a href="{{ route('dashboard') }}">{{ auth()->user()->name }} <span class="arrow_carrot-down"></span></a>
                                     <ul class="dropdown">
                                         <li><a href="{{ route('dashboard') }}" class="p-3">Dashboard</a></li>
@@ -133,9 +133,7 @@
                 </div>
             </div>
             <div class="col-lg-3">
-                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-                  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                <p>github.com/dotnamemush</p>
 
               </div>
           </div>

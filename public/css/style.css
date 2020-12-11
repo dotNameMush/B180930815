@@ -331,11 +331,18 @@ ol {
 }
 
 .header__logo {
-	padding: 20px 0 17px;
+	
+	height: 100px;
+	width: auto;
 }
 
 .header__logo a {
 	display: inline-block;
+
+}
+.header__logo a img{
+	height: 100px;
+	width: auto;
 }
 
 .header__menu {

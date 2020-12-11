@@ -22,7 +22,7 @@
             <div class="anime__details__content">
                 <div class="row">
                     <div class="col-lg-3">
-                        <div class="anime__details__pic set-bg" data-setbg="img/popular/popular-3.jpg">
+                        <div class="anime__details__pic set-bg" data-setbg="img/trending/trending-1.jpg">
                             <div class="comment"><i class="fa fa-comments"></i> 11</div>
                             <div class="view"><i class="fa fa-eye"></i> 9141</div>
                         </div>
@@ -30,8 +30,8 @@
                     <div class="col-lg-9">
                         <div class="anime__details__text">
                             <div class="anime__details__title">
-                                <h3>Fate Stay Night: Unlimited Blade</h3>
-                                <span>フェイト／ステイナイト, Feito／sutei naito</span>
+                                <h3>Boruto: Naruto next generations</h3>
+                                <span>BORUTO -NARUTO NEXT GENERATIONS-</span>
                             </div>
                             <div class="anime__details__rating">
                                 <div class="rating">
@@ -43,19 +43,19 @@
                                 </div>
                                 <span>1.029 Votes</span>
                             </div>
-                            <p>Every human inhabiting the world of Alcia is branded by a “Count” or a number written on
-                                their body. For Hina’s mother, her total drops to 0 and she’s pulled into the Abyss,
-                                never to be seen again. But her mother’s last words send Hina on a quest to find a
-                            legendary hero from the Waste War - the fabled Ace!</p>
+                            <p> Naruto was a young shinobi with an incorrigible knack for mischief. 
+                                He achieved his dream to become the greatest ninja in the village and his face 
+                                sits atop the Hokage monument. But this is not his story... A new generation 
+                                of ninja are ready to take the stage, led by Naruto's own son, Boruto!</p>
                             <div class="anime__details__widget">
                                 <div class="row">
                                     <div class="col-lg-6 col-md-6">
                                         <ul>
                                             <li><span>Type:</span> TV Series</li>
                                             <li><span>Studios:</span> Lerche</li>
-                                            <li><span>Date aired:</span> Oct 02, 2019 to ?</li>
+                                            <li><span>Date aired:</span> 2017</li>
                                             <li><span>Status:</span> Airing</li>
-                                            <li><span>Genre:</span> Action, Adventure, Fantasy, Magic</li>
+                                            <li><span>Genre:</span> Action, Adventure, Martial Arts, Shounen, Super Power</li>
                                         </ul>
                                     </div>
                                     <div class="col-lg-6 col-md-6">
@@ -71,7 +71,7 @@
                             </div>
                             <div class="anime__details__btn">
                                 <a href="#" class="follow-btn"><i class="fa fa-heart-o"></i> Follow</a>
-                                <a href="{{ route('wfate') }}" class="watch-btn"><span>Watch Now</span> <i
+                                <a href="{{ route('wboruto') }}" class="watch-btn"><span>Watch Now</span> <i
                                     class="fa fa-angle-right"></i></a>
                                 </div>
                             </div>

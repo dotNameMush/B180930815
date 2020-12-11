@@ -36,7 +36,19 @@
                                             {{ $message }}
                                         </div>
                             @enderror
+                            <!--username-->
                             <!--email-->
+                            <div class="input__item">
+                                <input type="text" name="username" id="username" placeholder="Your username"
+                                value="{{ old('username') }}">
+                                <span class="icon_profile"></span>
+                                
+                            </div>
+                            @error('username')
+                                        <div style="color:red;">
+                                            {{ $message }}
+                                        </div>
+                            @enderror
                             <div class="input__item">
                                 <input type="email" name="email" id="email" 
                                 placeholder="Email address" value="{{ old('email') }}">
